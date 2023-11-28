@@ -1,0 +1,12 @@
+.mini-privaledge-card-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    width: 95%;
+    background-color: white;
+    padding: 1rem 0.3rem;
+    border-radius: 20px;
+}
+.mini-privaledge-card-container:hover {
+    filter: invert();
+}

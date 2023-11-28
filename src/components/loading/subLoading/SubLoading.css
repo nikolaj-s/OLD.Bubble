@@ -1,0 +1,39 @@
+.sub-loading-container {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(151, 151, 151, 0.466);
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    margin: 0;
+    pointer-events: all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.inner-sub-loading-container {
+    width: 200px;
+    height: 200px;
+    margin-top: -20%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-loading-icon {
+    width: 60px;
+    height: 60px;
+    animation: infi-spin 1s infinite linear forwards;
+}
+
+@keyframes infi-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

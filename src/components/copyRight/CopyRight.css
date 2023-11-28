@@ -1,0 +1,39 @@
+.copy-right-component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-shrink: 0;
+    padding: 0 0 2rem 0;
+}
+.copy-right-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copy-right-top p {
+    text-align: center;
+}
+.copy-right-top svg {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+.terms-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.terms-link-container a {
+    text-align: center;
+    color: black;
+}
+.black-circle {
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
+    background-color: rgba(65, 65, 65, 0.377);
+    border-radius: 50%;
+    flex-shrink: 0;
+}

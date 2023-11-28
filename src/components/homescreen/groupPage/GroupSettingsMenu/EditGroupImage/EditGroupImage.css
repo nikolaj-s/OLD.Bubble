@@ -1,0 +1,86 @@
+.edit-group-image-outer-container {
+    position: relative;
+    width: 90%;
+    height: 150px;
+    display: flex;
+    flex-shrink: 0;
+    margin-top: 1rem;
+}
+
+.edit-group-image-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+    flex-shrink: 0;
+}
+.group-image-update-button {
+    position: absolute;
+    z-index: 12;
+    top: 5px;
+    cursor: default;
+    right: 5px;
+    margin-top: 0;
+    padding: 5px;
+    border-radius: 10px;
+}
+.group-image-update-button:hover {
+    background-color: black;
+    color: white;
+}
+.edit-group-image-container input {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+}
+.edit-group-image-container h3 {
+    z-index: 10;
+    padding: 0.5rem;
+    cursor: default;
+    margin-left: 1rem;
+    border-radius: 10px;
+}
+.edit-group-image-container h3:hover {
+    background-color: black;
+    color: white;
+}
+#edit-group-image-back-splash {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    border-radius: 10px;
+}
+.white-back-splash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.651);
+}
+.circle-group-image-display {
+    width: 100px;
+    height: 100px;
+    margin-left: 1rem;
+    z-index: 10;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.circle-group-image-display img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 10;
+    border-radius: 50%;
+}

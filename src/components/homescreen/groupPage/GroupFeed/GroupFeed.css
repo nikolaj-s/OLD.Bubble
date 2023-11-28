@@ -1,0 +1,35 @@
+.group-feed-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.group-feed-spacer {
+    width: 100%;
+    height: 150px;
+    flex-shrink: 0;
+}
+.group-feed-max-posts-reached {
+    opacity: 0.5;
+    width: 100%;
+    text-align: center;
+    padding:  60px 0;
+    flex-shrink: 0;
+}
+.expanded-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 9999;
+}
+.expanded-view img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,25 @@
+.bubble {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.589);
+    border: solid rgba(0, 0, 0, 0) 2px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    shape-outside: circle();
+}
+.accent {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    height: 40px;
+    width: 10px;
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 40%;
+    transform: rotate(-25deg);
+
+}
+.bubble:hover {
+    border: solid rgb(0, 0, 0) 2px;
+}

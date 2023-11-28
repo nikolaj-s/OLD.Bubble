@@ -1,0 +1,187 @@
+@media only screen and (max-width: 475px) {
+    .post-bubble-preview,
+    .post-loading {
+        width: 100px;
+        height: 100px;
+    }
+    .feed-post p {
+        font-size: 14px;
+    }
+    .date-delete-container p {
+        flex-shrink: 1;
+    }
+    .delete-button {
+        flex-shrink: 0;
+    }
+    .post-user-container h2 {
+        font-size: 1.3rem;
+    }
+    
+    .trending-posts-container {
+        width: 100%;
+        display: flex;
+        flex-shrink: 0;
+        height: 90px;
+        justify-content: center;
+        margin-bottom: -15px;
+    }
+    .trending-post-bubble-preview {
+        width: 85px;
+        height: 85px;
+        margin: 5px;
+        flex-shrink: 0;
+        border-radius: 50%;
+    }
+    .user-bio {
+        margin-top: 1.5rem;
+    }
+    .user-info h2 {
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+    }
+   .inner-landing-page-container .copy-right-component .terms-link-container {
+       display: none;
+   }
+    
+}
+@media only screen and (max-width: 360px) {
+    .follow-button {
+        margin-right: 0.4rem;
+    }
+    .user-bio {
+        margin-top: 1.2rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .round-1 {
+        width: 45%;
+        align-self: flex-end;
+        height: 70%;
+    }
+    .round-2 {
+        width: 0%;
+    }
+    .round-3 {
+        width: 55%;
+    }
+    .slide-info-panel p {
+        max-width: 90%;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    .inner-intro-component-container {
+        width: 95%;
+    }
+    .intro-set-bio {
+        width: 95%;
+    }
+    .intro-image-upload-container {
+        width: 95%;
+    }
+}
+@media only screen and (max-height: 1000px) and (max-width: 1100px) {
+    .clear-container {
+        bottom: 250px;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .post-container-feed {
+        align-self: center;
+        width: 90%;
+    }
+    .group-feed-container {
+        
+        align-self: center;
+    }
+    
+}
+
+@media screen and (max-width: 1100px) {
+    .landing-page-bubbles-container {
+        display: none;
+    }
+}
+@media only screen and (min-width: 700px) {
+    .post-bubble-preview,
+    .post-loading {
+        width: 180px;
+        height: 180px;
+    }
+     
+    .bar-1 {
+        width: 90px;
+        height: 90px;
+        left: 5%;
+        
+        animation: bar 5.5s infinite ease-in-out forwards;
+    }
+    .bar-2 {
+        left: 15%;
+        animation: bar 6s infinite ease-in-out forwards;
+       
+        width: 30px;
+        height: 30px;
+    }
+    .bar-3 {
+        left: 20%;
+        animation: bar 4.1s infinite ease-in-out forwards;
+        
+        width: 110px;
+        height: 110px;
+    }
+    .bar-4 {
+        left: 25%;
+        animation: bar 6.2s infinite ease-in-out forwards;
+      
+        width: 50px;
+        height: 50px;
+    }
+    .bar-5 {
+        left: 30%;
+        animation: bar 7.7s infinite ease-in-out forwards;
+      
+        width: 90px;
+        height: 90px;
+    }
+    .bar-6 {
+        left: 35%;
+        animation: bar 5.9s infinite ease-in-out forwards;
+      
+        width: 70px;
+        height: 70px;
+    }
+    .bar-7 {
+        left: 45%;
+        animation: bar 4.8s infinite ease-in-out forwards;
+       
+        width: 50px;
+        height: 50px;
+    }
+    .bar-8 {
+        left: 50%;
+        animation: bar 6.35s infinite ease-in-out forwards;
+     
+        width: 30px;
+        height: 30px;
+    }
+    .bar-9 {
+        left: 60%;
+        animation: bar 5.25s infinite ease-in-out forwards;
+     
+        width: 70px;
+        height: 70px;
+    }
+    .bar-10 {
+        left: 80%;
+        animation: bar 4.75s infinite ease-in-out forwards;
+    
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    .user-post-loading-spinner-container {
+        bottom: 90px;
+    }
+}

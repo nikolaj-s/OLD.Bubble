@@ -1,0 +1,80 @@
+.results {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    flex-wrap: wrap;
+    height: auto;
+    max-height: 700px;
+    flex-shrink: 0;
+    padding: 5px;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding-bottom: 20px;
+    position: relative;
+    background-color: #d2d2d282;
+}
+.results h2 {
+    margin-left: 1rem;
+}
+.results h5 {
+    justify-self: center;
+    align-self: center;
+    font-weight: 200;
+    opacity: 0.8;
+}
+.account-box {
+    width: 90%;
+    margin: 10px 5px;
+    border: solid 2px rgb(199, 199, 199);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.account-box:hover {
+    background-color: rgb(199, 199, 199);
+}
+.pro-pic {
+    align-self: center;
+    padding: 0.3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+}
+
+.search-button {
+    width: 30px;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: 6%;
+    z-index: 10;
+    opacity: 0.5;
+}
+.account-box h4 {
+    align-self: center;
+    padding: 0.3rem;
+    cursor: default;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.account-box button {
+    background-color: white;
+    border: solid 1px gray;
+    pad: 0.5rem;
+    border-radius: 50%;
+    align-self: center;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    margin: 0 0.25rem;
+}
+.account-box button:hover {
+    background-color: gray;
+}

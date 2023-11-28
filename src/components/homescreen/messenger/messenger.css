@@ -1,0 +1,206 @@
+.friend-name {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 48%;
+    border-top-right-radius: 20px;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+
+}
+.friend-button {
+    color: white;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    overflow-wrap: break-word;
+    width: 90%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.friend-name h1 {
+    color: white;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    flex-shrink: 2;
+    font-weight: 400;
+    font-size: 1.2rem;
+    align-self: center;
+    cursor: pointer;
+}
+.close-messenger-container {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-right: 1rem;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.close-messenger:hover {
+    background-color: rgba(128, 128, 128, 0.315);
+}
+.close-messenger {
+    align-self: center;
+    margin: 0 0.5rem;
+    max-width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.messanger-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-top: solid transparent 2px;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 5px;
+}
+.middle-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    clear: both;
+    flex-shrink: 3;
+}
+.input-container {
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0;
+    height: 50px;
+    flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 2rem;
+}
+.input-container input {
+    flex-shrink: 3;
+    border: none;
+    font-size: 1.4rem;
+    height: 100%;
+    padding: 0 5px;
+    width: 100%;
+    color: black;
+    background-color: transparent;
+}
+.message-input-spacer {
+    width: 100%;
+    height: 130px;
+    flex-shrink: 0;
+}
+.input-container button {
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 10px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    flex-shrink: 0;
+    border: none;
+    margin: 0 10px;
+    border: solid black 2px;
+
+}
+.input-container button svg {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+}
+.input-container button:hover {
+    filter: invert();
+}
+.image-button {
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
+.message-post {
+    width: 70%;
+    flex-shrink: 0;
+    min-width: 50%;
+    max-width: 70%;
+    max-height: 700px;
+    min-height: 50px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    clear: both;
+    position: relative;
+    margin: 10px 5px;
+    background-color: rgba(192, 192, 192, 0.568);
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+.message-post img {
+    min-height: 250px;
+    max-height: 250px;
+    border-radius: 20px;
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+    position: inherit;
+}
+.message-post video {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+    height: 400px;
+}
+.user-name {
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+.sender {
+    align-self: flex-end;
+}
+.sender img {
+    align-self: flex-start;
+}
+.sender .user-name {
+    text-align: right;
+}
+.message-post .link-container {
+    overflow-wrap: break-word;
+}
+.link-container a {
+    color: black;
+}
+.message-text {
+    overflow-wrap: break-word;
+}
+
+.message-post-container p {
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+

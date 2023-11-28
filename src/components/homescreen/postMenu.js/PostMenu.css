@@ -1,0 +1,219 @@
+.post-menu {
+    position: fixed;
+    top: 45px;
+    height: 100vh;
+    margin-bottom: 90px;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: 0.3s;
+    left: 50%;
+    transform: translate(-50%, 100%);
+
+    z-index: 110;
+    margin-top: 5px;
+    flex-shrink: 0;
+}
+.inner-post-menu {
+    border-radius: 20px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.897);
+    flex-direction: column;
+    align-items: center;
+}
+#image-canvas {
+    max-width: 90%;
+}
+.post-nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    align-items: center;
+    flex-shrink: 0;
+}
+.post-nav h2 {
+    font-weight: 400;
+    opacity: 0.9;
+    text-align: center;
+}
+.post-nav svg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-form {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    align-content: center;
+    position: relative;
+    flex-shrink: 0;
+}
+.post-form h4 {
+    margin: 0;
+    text-align: left;
+    width: 100%;
+    
+}
+.post-form input {
+    width: 100%;
+    height: 40px;
+    padding: 0.25rem;
+    margin: 1rem 0;
+    border: solid 2px black;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    flex-shrink: 0;
+}
+
+.post-form textarea {
+    margin-top: 1.5rem;
+    resize: none;
+    width: 95%;
+    height: 150px;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    flex-shrink: 0;
+}
+.image-upload-container {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width: 160px;
+}
+#image-file {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    flex-shrink: 0;
+}
+.image-prev-container {
+    width: 90%;
+    flex-shrink: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    border-radius: 20px;
+}
+#image-prev {
+    
+    flex-shrink: 0;
+    display: none;
+}
+.post-menu-loading-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.774);
+    z-index: 10000;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post-loading-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-right: solid white 4px;
+    
+    animation: spin infinite forwards linear 1s;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.post-info-button {
+    position: relative;
+    align-self: flex-end;
+    flex-shrink: 0;
+    border-radius: 50%;
+    margin: 1rem;
+    width: 20px;
+    height: 20px;
+    opacity: 0.3;
+}
+.post-info-container {
+    max-width: 95%;
+    padding: 1rem 0 5rem 0;
+}
+.post-info-container ul li {
+    line-height: 1.8;
+}
+.post-options-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 95%;
+    flex-shrink: 0;
+    justify-content: space-evenly;
+}
+.image-file-upload-button,
+.explicit-content-container,
+.enable-likes-container {
+    margin: 0.5rem;
+    flex-direction: column;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    width: 90px;
+    flex-shrink: 1;
+    height: 100px;
+    margin: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.image-file-upload-button:hover,
+.explicit-content-container:hover,
+.enable-likes-container:hover {
+    background-color: rgba(204, 204, 204, 0.733);
+}
+.image-file-upload-button svg {
+    height: 40px;
+    width: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.image-file-upload-button p,
+.enable-likes-container p ,
+.explicit-content-container p {
+    margin: 1rem;
+    text-align: center;
+    cursor: default;
+}
+
+.post-menu-spacer  {
+    height: 100px;
+    width: 100%;
+    flex-shrink: 0;
+}
+

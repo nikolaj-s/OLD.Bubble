@@ -1,0 +1,45 @@
+.recover-account-container {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+.inner-recover-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    
+}
+.inner-recover-container p {
+    text-align: center;
+}
+.inner-recover-container input {
+    width: 80%;
+    height: 30px;
+    padding: 10px 3px;
+    font-size: 1.3rem;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+.inner-recover-container button {
+    width: 70%;
+    height: 50px;
+    margin: 4rem 0 0 0;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+}
+.not-valid-button {
+    cursor: default;
+    opacity: 0.3;
+}
+.valid-button:hover {
+    filter: invert();
+}

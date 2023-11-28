@@ -1,0 +1,90 @@
+.edit-privaledge-outer-container {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(80, 80, 80, 0.692);
+}
+.close-menu-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.edit-privaledge-container {
+    width: 70%;
+    height: 70%;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.privaledge-info-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+.privaledge-info-title h5 {
+    font-size: 0.6rem;
+    opacity: 0.8;
+}
+.close-privaledge-menu {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8%;
+    right: 8%;
+    z-index: 12;
+}
+.close-privaledge-menu:hover {
+    background-color: gray;
+}
+.close-privaledge-menu svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.privaledges-list-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+
+/* button nav */
+
+.apply-cancel-privaledge-change-container {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 0;
+    height: 40px;
+}
+.apply-cancel-privaledge-change-container button {
+    border: none;
+    width: 50%;
+    margin: 0;
+    object-fit: contain;
+    background-color: white;
+    padding: 0;
+
+}
+.left-button-privaledge {
+    border-bottom-left-radius: 20px;
+}
+.right-button-privaledge {
+    border-bottom-right-radius: 20px;
+}

@@ -1,0 +1,136 @@
+#menu-container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    height: 100%;
+    z-index: 999;
+    align-items: center;
+    transition: transform  0.4s;
+    transform: translate3d(300%, 0, 0);
+    position: fixed;
+    top: 45px;
+    background-color: rgba(255, 255, 255, 0.89);
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-top: solid rgba(0, 0, 0, 0.219) 2px;
+
+}
+#menu-container h2 {
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.search-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    flex-shrink: 0;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+.menu-bottom-spacer-container {
+    flex-shrink: 0;
+    height: 45px;
+    width: 100%;
+}
+#menu-container input {
+    background-color: #d2d2d282;
+    z-index: 5;
+    border: solid black 2px;
+    margin: 1rem 0;
+
+    padding: 10px 5px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    justify-self: center;
+    color: black;
+    width: 90%;
+    flex-shrink: 0;
+}
+
+.outer-div-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 66px;
+    align-items: center;
+    width: 100%;
+    flex: 2;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+.menu-items {
+    width: 90%;
+}
+.menu-items p {
+    text-align: center;
+}
+.log-out {
+    border: solid black 2px;
+    height: 80px;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    width: 100%;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: default;
+    transition: 0.1s;
+}
+.log-out:hover {
+    background-color: black;
+    color: white;
+}
+
+.edit-container {
+    margin-top: 4rem;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.edit-container button {
+    padding: 0.5rem 2rem;
+    border: solid black 2px;
+    background-color: rgba(119, 117, 117, 0.3);
+    transition: 0.3s;
+    border-radius: 50px;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+.trending-posts-container {
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+    height: 130px;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -15px;
+}
+.trending-post-bubble-preview {
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.blur-nsfw-trending-post {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.158);
+    backdrop-filter: blur(20px);
+    z-index: 99;
+    border-radius: 50%;
+}
+
+.trending-post-bubble-preview img,
+.trending-post-bubble-preview video {
+    object-fit: cover;
+    border-radius: 50%;
+}

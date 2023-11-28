@@ -1,0 +1,31 @@
+.message-container p {
+    cursor: default;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.message-container {
+    width: 85%;
+    height: 90px;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.384), white);
+    
+    margin: 0.5rem 0;
+    text-align: center;
+    flex-shrink: 0;
+    position: relative;
+}
+.message-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 15px;
+    position: absolute;
+}

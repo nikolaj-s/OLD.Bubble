@@ -1,0 +1,14 @@
+.invite-alert-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 1rem 3rem;
+    border: solid black 2px;
+    border-radius: 20px;
+    z-index: 20;
+}
+.invite-alert-container p {
+    text-align: center;
+}

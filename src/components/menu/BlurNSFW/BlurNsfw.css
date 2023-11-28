@@ -1,0 +1,18 @@
+.blur-nsfw-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding: 1rem 0;
+    margin: 2rem 0;
+    align-items: center;
+    border-top: rgba(0, 0, 0, 0.37) solid 1px;
+    border-bottom: rgba(0, 0, 0, 0.384) solid 1px;
+}
+.nsfw-info-container p {
+    text-align: left;
+}
+.nsfw-info-container span {
+    text-align: left;
+    font-size: 12px;
+}

@@ -1,0 +1,36 @@
+.edit-group-name-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: solid 2px black;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    flex-shrink: 0;
+}
+.upper-group-name-edit-container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+}
+.upper-group-name-edit-container h3 {
+    padding-left: 1rem;
+}
+#new-group-name-input {
+    width: 80%;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: solid 1px black;
+    font-size: 1.3rem;
+    align-self: center;
+}
+.upper-group-name-edit-container h4 {
+    padding: 3px 5px;
+    border-radius: 5px;
+    cursor: default;
+}
+.upper-group-name-edit-container h4:hover {
+    background-color: black;
+    color: white;
+}

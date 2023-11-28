@@ -1,0 +1,216 @@
+.pro-edit-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    top: 50px;
+    left: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s;
+    opacity: 0;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    z-index: 30;
+    overflow: hidden;
+    
+}
+.edit-buttons {
+    height: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 2px black solid;
+    
+    flex-shrink: 0;
+}
+.edit-buttons svg {
+    width: 60px;
+    height: 60px;
+    margin: 0.5rem;
+    align-self: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.edit-buttons svg:hover {
+    background-color: rgba(204, 204, 204, 0.733);
+}
+.edit-buttons h2 {
+    align-self: center;
+}
+
+.inner-edit-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    flex-shrink: 0;
+    padding-bottom: 5rem;
+}
+.inner-edit-container form {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+    flex-shrink: 0;
+}
+
+.inner-edit-container form input {
+    width: 98%;
+    height: auto;
+    padding: 0.25rem;
+    margin: 1rem 0;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+.user-edit-padding-spacer {
+    height: 100px;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+label {
+    text-align: left;
+    width: 100%;
+}
+.edit-textarea {
+    width: 96%;
+    resize: none;
+    height: 50%;
+    padding: 1.5%;
+    margin: 1rem 0;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.edit-textarea:focus {
+    background-color: black;
+    color: white;
+}
+.edit-user-button {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    padding: 1rem 0.4rem;
+    display: flex;
+    border: solid black 2px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 10;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin:  10px 0;
+    box-shadow: 5px 5px 35px rgba(97, 97, 97, 0.24);
+}
+.arrow-container {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.arrow-container:hover {
+    background-color: rgba(204, 204, 204, 0.733);
+}
+.arrow-container h5 {
+    font-size: 1rem;
+    margin: 0;
+    cursor: default;
+}
+.edit-private-container,
+.edit-password-container,
+.edit-bio-container,
+.edit-picture-container {
+    width: 100%;
+    height: 40px;
+    padding: 1rem 0;
+    margin-top: -70px;
+    opacity: 0;
+    transition: 0.3s;
+    flex-shrink: 0;
+    
+}
+.edit-picture-container {
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80px;
+}
+.image-edit-sub-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    cursor: pointer;
+}
+.image-edit-sub-container label {
+    display: flex;
+    align-items: center;
+}
+
+.image-preview-edit {
+    max-width: 95%;
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;
+}
+.edit-user-image-upload-button {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+#edit-image-upload {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+}
+.edit-image-button-label {
+    position: absolute;
+    top: 34%;
+    left: 43%;
+}
+.private-switch-container {
+    width: 70px;
+    height: 35px;
+    border: solid black 1px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    display: none;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.private-switch {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+.edit-user-button h4 {
+    cursor: default;
+}

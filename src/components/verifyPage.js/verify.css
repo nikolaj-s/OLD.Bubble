@@ -1,0 +1,64 @@
+.verify-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    background-color: white;
+    overflow-y: auto;
+}
+.verify-page p {
+    text-align: center;
+    margin: 0 1rem;
+}
+.verify-page button {
+    border: solid black 2px;
+    height: 60px;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    width: 200px;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: default;
+    transition: 0.1s;
+}
+.verify-page button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.verify-page input {
+    height: 50px;
+    width: 70%;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    border: solid 2px black;
+    text-align: center;
+}
+.verify-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+}
+.error-verify-message {
+    color: red;
+}
+.email-resent {
+    position: absolute;
+    top: 40%;
+    border-radius: 20px;
+    background-color: silver;
+    padding: 2rem 4rem;
+}
+.re-send {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.verify-page h3 {
+    margin: 1rem auto;
+    cursor: pointer;
+}

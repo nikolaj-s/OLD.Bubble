@@ -1,0 +1,14 @@
+.trending-post-container {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trending-post-container:hover {
+    background-color: rgba(128, 128, 128, 0.301);
+}

@@ -1,0 +1,19 @@
+.group-post-replies-container {
+    width: 90%;
+    border-left: solid 5px black;
+    min-height: 90px;
+    padding: 1rem;
+    margin-left: 10%;
+    flex-shrink: 0;
+}
+
+.show-more-replies-button {
+    margin: 1rem auto;
+    background-color: white;
+    padding: 0.5rem 2rem;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+.show-more-replies-button:hover {
+    filter: invert();
+}

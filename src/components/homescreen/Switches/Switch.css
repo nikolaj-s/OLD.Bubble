@@ -1,0 +1,18 @@
+.component-switch-container {
+    display: flex;
+    width: 70px;
+    padding: 0 5px;
+    border: solid black 2px;
+    height: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.inner-switch {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+}

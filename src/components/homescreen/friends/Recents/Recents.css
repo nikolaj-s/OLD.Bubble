@@ -1,0 +1,51 @@
+.recents-container {
+    width: 95%;
+    height: 90px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 35px rgba(0, 0, 0, 0.336);
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: auto;
+    transition: 0.5s;
+    flex-shrink: 0;
+}
+.recents-title-container {
+    transition: 0.5s;
+}
+.recents {
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+.recents img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.clear-recents {
+    width: 95%;
+    background-color: white;
+    border: solid 1px black;
+    padding: 1rem 0;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-family: 'Varela Round', sans-serif;
+    opacity: 0.8;
+    margin: 0.5rem 0;
+    letter-spacing: 2px;
+    flex-shrink: 0;
+    
+}
+.clear-recents:hover {
+    opacity: 1;
+    background-color: black;
+    color: white;
+}

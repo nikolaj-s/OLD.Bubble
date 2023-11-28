@@ -1,0 +1,21 @@
+.group-feed-refresh-loading-container {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+.group-feed-refresh-loading-container svg {
+    width: 60px;
+    height: 50px;
+    animation: group-refresh-feed-loop 0.8s forwards infinite linear;
+}
+@keyframes group-refresh-feed-loop {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,7 @@
+.feed-place-holder-container {
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

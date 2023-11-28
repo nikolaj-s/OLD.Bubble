@@ -1,0 +1,19 @@
+.group-info-button-container {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.group-info-button-container svg {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    width: 30px;
+    height: 30px;
+}
+.group-info-button-container p {
+    font-size: 0.8rem;
+    max-width: 75%;
+}

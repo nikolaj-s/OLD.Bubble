@@ -1,0 +1,25 @@
+.install-pwa-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding: 1rem 0;
+    margin: 2rem 0;
+    align-items: center;
+    border-top: rgba(0, 0, 0, 0.37) solid 1px;
+    border-bottom: rgba(0, 0, 0, 0.384) solid 1px;
+}
+.install-pwa-info-container p {
+    text-align: left;
+}
+.install-pwa-container button {
+    margin: 0;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: solid black 2px;
+
+}
+.install-pwa-container button:hover {
+    filter: invert();
+}

@@ -1,0 +1,119 @@
+.loading-outer-container {
+    display: flex;
+    z-index: 1000;
+    height: 100%;
+    z-index: 100000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 1);
+    transition: .5s;
+}
+.loading-container {
+    display: flex;
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.loading-container .bubl {
+    top: 0;
+    position: absolute;
+    border: solid 2px black;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+.bar-1 {
+    width: 90px;
+    height: 90px;
+    left: 5%;
+    
+    animation: bar 2.5s infinite ease-in-out forwards;
+}
+.bar-2 {
+    left: 15%;
+    animation: bar 3s infinite ease-in-out forwards;
+   
+    width: 30px;
+    height: 30px;
+}
+.bar-3 {
+    left: 20%;
+    animation: bar 2.1s infinite ease-in-out forwards;
+    
+    width: 110px;
+    height: 110px;
+}
+.bar-4 {
+    left: 25%;
+    animation: bar 3.2s infinite ease-in-out forwards;
+  
+    width: 50px;
+    height: 50px;
+}
+.bar-5 {
+    left: 30%;
+    animation: bar 3.7s infinite ease-in-out forwards;
+  
+    width: 90px;
+    height: 90px;
+}
+.bar-6 {
+    left: 35%;
+    animation: bar 2.9s infinite ease-in-out forwards;
+  
+    width: 70px;
+    height: 70px;
+}
+.bar-7 {
+    left: 45%;
+    animation: bar 1.8s infinite ease-in-out forwards;
+   
+    width: 50px;
+    height: 50px;
+}
+.bar-8 {
+    left: 50%;
+    animation: bar 3.35s infinite ease-in-out forwards;
+ 
+    width: 30px;
+    height: 30px;
+}
+.bar-9 {
+    left: 60%;
+    animation: bar 2.25s infinite ease-in-out forwards;
+ 
+    width: 70px;
+    height: 70px;
+}
+.bar-10 {
+    left: 80%;
+    animation: bar 2.75s infinite ease-in-out forwards;
+
+    width: 90px;
+    height: 90px;
+}
+.laccent {
+    width: 50%;
+    height: 20%;
+    top: 21%;
+    right: 5%;
+    border-radius: 60%;
+    background-color: rgba(0, 0, 0, 0.267);
+    position: absolute;
+    transform: rotate(50deg);
+}
+@keyframes bar {
+    0% {
+        margin-top: 200%;
+    }
+    100%  {
+
+        margin-top: -50%;
+    }
+}

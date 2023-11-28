@@ -1,0 +1,165 @@
+.landingPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    background-color: white;
+    z-index: -1;
+}
+.inner-landing-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(3px);
+    z-index: 40;
+}
+.landingPage h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 1rem 0 0 0;
+    z-index: 40;
+}
+
+.landingPage button {
+    border: solid black 2px;
+    height: 80px;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    width: 300px;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: default;
+    transition: 0.1s;
+    z-index: 40;
+}
+.landingPage button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.landing-page-shape-accent-container {
+    position: absolute;
+    bottom: 0;
+    
+    display: flex;
+    width: 100%;
+    height: 30%;
+    
+    z-index: 3;
+}
+.round-1 {
+    width: 35%;
+    height: 100%;
+    border-top: solid black 2px;
+    border-top-right-radius: 200px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+.round-2 {
+    width: 30%;
+    align-self: flex-end;
+    height: 60%;
+    border-bottom: solid black 2px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.round-3 {
+    width: 35%;
+    height: 100%;
+    border-top-left-radius: 200px;
+    border-top: solid black 2px;
+    background-color: white;
+}
+.landing-page-bubbles-container {
+    display: flex;
+    z-index: 1000;
+    height: 100%;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 1);
+    transition: .5s;
+}
+.loading-container {
+    position: relative;
+}
+.loading-container .buble {
+    position: absolute;
+    border: solid 2px black;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+.bub-1 {
+    width: 40px;
+    height: 40px;
+    top: 200px;
+    left: 2%;
+}
+.bub-2 {
+    width: 200px;
+    height: 200px;
+    top: 30%;
+    left: 7%;
+}
+.bub-3 {
+    height: 100px;
+    width: 100px;
+    top: 3%;
+    left: 25%;
+}
+
+.bub-4 {
+    width: 60px;
+    height: 60px;
+    top: 70%;
+    left: 50%;
+}
+.bub-5 {
+    width: 300px;
+    height: 300px;
+    top: 10%;
+    left: 60%;
+}
+.bub-6 {
+    top: 40%;
+    left: 80%;
+    width: 40px;
+    height: 40px;
+}
+.bub-7 {
+    top: 60%;
+    right: 5%;
+    width: 200px;
+    height: 200px;
+}
+.bub-8 {
+    top: -5%;
+    right: -5%;
+    width: 200px;
+    height: 200px;
+}
+.bub-9 {
+    left: -5%;
+    bottom: 25%;
+    width: 125px;
+    height: 125px;
+}
+.bub-10 {
+    left: 25%;
+    bottom: 20%;
+    width: 130px;
+    height: 130px;
+}
+.inner-landing-page-container .copy-right-component {
+    margin: 0;
+    padding: 0;
+}

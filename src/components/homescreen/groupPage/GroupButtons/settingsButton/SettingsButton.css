@@ -1,0 +1,15 @@
+.group-settings-button {
+    position: absolute;
+    top: .3rem;
+    right: .3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    z-index: 3;
+    padding: 5px;
+    background-color: white;
+}
+.group-settings-button:hover {
+    background-color: rgb(187, 187, 187);
+}

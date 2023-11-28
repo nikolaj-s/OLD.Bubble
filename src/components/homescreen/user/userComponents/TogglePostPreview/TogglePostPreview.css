@@ -1,0 +1,32 @@
+.toggle-post-preview-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0.5rem 0 0 0;
+    height: 40px;
+    align-items: center;
+    background-color: white;
+    flex-shrink: 0;
+}
+.feed-view-button-container,
+.bubble-view-container-button {
+    width: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    height: 38px;
+    padding: 3px;
+    border-radius: 10px;
+}
+.feed-view-button-container,
+.bubble-view-container-button svg {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+}
+
+.feed-view-button-container:hover,
+.bubble-view-container-button:hover {
+    background-color: rgba(128, 128, 128, 0.425);
+}

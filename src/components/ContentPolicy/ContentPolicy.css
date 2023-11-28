@@ -1,0 +1,34 @@
+.outer-content-policy-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inner-content-policy-container {
+    background-color: white;
+    height: auto;
+    flex-shrink: 0;
+    margin-top: 3px;
+    padding-top: 2rem;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+.inner-content-policy-container h2,
+.inner-content-policy-container p, 
+.inner-content-policy-container h4,
+.inner-content-policy-container ul,
+.inner-content-policy-container li {
+    margin: 1rem 5%;
+}
+.inner-content-policy-container p {
+    font-size: 1rem;
+}
+.inner-content-policy-container h2 {
+    font-size: 2.2rem;
+}
+.inner-content-policy-container h4 {
+    font-size: 1.8rem;
+}

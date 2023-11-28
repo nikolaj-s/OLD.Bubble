@@ -1,0 +1,24 @@
+.group-post-reply {
+    flex-shrink: 0;
+    max-width: 90%;
+}
+.reply-top-container {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.reply-time {
+    opacity: 0.3;
+    text-align: right;
+}
+.group-post-user-reply {
+    cursor: default;
+    padding: 2px 3px;
+    border-radius: 10px;
+    background-color: white;
+    width: auto;
+}
+.group-post-user-reply:hover {
+    filter: invert();
+}

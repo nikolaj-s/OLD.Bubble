@@ -1,0 +1,82 @@
+.invite-menu-container {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    position: fixed;
+    top: 100%;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    transition: 0.5s;
+}
+.inner-invite-menu-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    overflow-y: auto;
+    padding: 0 -6px;
+    border-top-left-radius: 30px;
+    background-color: white;
+    border-top-right-radius: 30px;
+}
+
+.invite-menu-nav-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.377);
+    border-top-right-radius: 30px;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 30px;
+}
+.invite-menu-nav-container h4 {
+    margin-left: 1.5rem;
+    opacity: 0.6;
+}
+
+
+.invite-friend-container {
+    width: 80%;
+    height: 40px;
+    padding: 5px 0;
+    border: solid rgba(0, 0, 0, 0.445) 2px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    margin: 1rem 0;
+
+}
+
+.invite-button-container {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+.invite-button-container:hover {
+    background-color: rgba(128, 128, 128, 0.438);
+}
+
+.invite-friend-image-container {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+
+.invite-friend-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}

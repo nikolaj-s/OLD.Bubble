@@ -1,0 +1,130 @@
+.friends-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.friends-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    max-width: 1000px;
+    animation: friends-fade-in 0.4s linear forwards;
+}
+
+@keyframes friends-fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.bottom-nav-spacer {
+    height: 250px;
+    flex-shrink: 0;
+    width: 100%;
+    margin: 55px 0;
+}
+.friend {
+    height: 60px;
+    width: 95%;
+    border: solid 3px rgb(199, 199, 199);
+    border-radius: 10px;
+    margin: 1rem 5px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+.friend-name-container {
+    flex: 2;
+}
+.friend h3 {
+    text-transform: capitalize;
+    margin-left: 1rem;
+    overflow-wrap: break-word;
+    align-self: center;
+    cursor: default;
+}
+.friend-profile {
+    object-fit: cover;
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    
+}
+.friend:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+.friend-alert {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    opacity: 0;
+}
+.no-friends-message {
+    top: 30%;
+    margin-top: 10rem;
+    text-align: center;
+    width: 250px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    opacity: 0.5;
+    margin-bottom: 10rem;
+    flex-shrink: 0;
+    cursor: default;
+}
+.friend-message-button {
+    align-self: center;
+    justify-self: flex-end;
+    border-radius: 50%;
+    padding: 3px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.3;
+}
+.friend-message-button:hover {
+    background-color: rgb(255, 255, 255);
+
+}
+.friend-message-button-actual {
+    width: 50px;
+    height: 50px;
+}
+
+.friend-title-container,
+.groups-title-container {
+    width: 100%;
+    margin: 5px 1.5rem;
+    border-bottom: 1px solid gray;
+    opacity: 0.3;
+    transition: 0.5s;
+    flex-shrink: 0;
+    
+}
+.friend-title-container h2,
+.groups-title-container  h2 {
+    margin-left: 1rem;
+}

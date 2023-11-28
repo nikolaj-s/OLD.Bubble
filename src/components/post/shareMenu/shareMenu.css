@@ -1,0 +1,63 @@
+.share-menu-container {
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    overflow-x: hidden;
+    margin-top: -60px;
+    min-height: 200px;
+    padding-bottom: 70px;
+}
+
+
+.copy-link-container {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.copy-link-container svg {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
+.copy-link-container:hover {
+    background-color: rgba(128, 128, 128, 0.315);
+}
+.friend-share-container {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.friend-share-container:hover {
+    background-color: rgba(128, 128, 128, 0.315);
+}
+.friend-share-container img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 90%;
+    height: 90%;
+}
+.loading-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.post-link {
+   opacity: 0;
+   width: 0;
+   height: 0;
+   cursor: default;
+   position: absolute;
+   left: -500%;
+}

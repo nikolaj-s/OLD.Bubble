@@ -1,0 +1,144 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    max-width: 100%;
+    margin:0;
+    padding: 0 1rem;
+    height: 45px;
+    flex-shrink: 0;
+    
+}
+.nav-title {
+    font-size: 2rem;
+    margin: 0.4rem 0;
+    font-weight: 400;
+    flex-grow: 3;
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    font-family: "Quicksand", sans-serif;
+}
+nav h1 {
+    color: black;
+    font-weight: 400;
+    flex: 3;
+    font-size: 1.7rem;
+    font-family: "Raleway", sans-serif;
+    cursor: default;
+}
+.add {
+    font-size: 100px;
+    
+    margin: 0;
+    padding: 0;
+
+}
+.menu-button {
+    transition: 0.3s;
+    align-self: center;
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+.nav-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    align-self: center;
+    cursor: default;
+}
+.nav-button-container:hover {
+    background-color: rgba(128, 128, 128, 0.315);
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    min-width: 130px;
+    
+    height: 100%;
+    cursor: default;
+}
+.profile-button {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    align-self: center;
+    border-radius: 50%;
+}
+.profile-button-container {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: default;
+}
+.profile-button-container:hover {
+    background-color: rgba(128, 128, 128, 0.315);
+}
+.profile-button :hover{
+    opacity: 0.6;
+}
+.notification-button {
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    position: relative;
+    align-self: center;
+}
+.notification-counter {
+    position: absolute;
+    background-color: red;
+    width: 25px;
+    margin: 0;
+    padding: 0;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    right: -10px;
+    z-index: 10;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    font-size: .8rem;
+    font-weight: 400;
+    cursor: default;
+}
+.notification-counter p {
+    margin: 0;
+    padding: 0;
+    font-size: .01rem;
+}
+.desktop-nav-icons {
+    display: none;
+}
+
+
+.create-account-button {
+    justify-self: flex-end;
+    width:100%;
+    font-size: 1.4rem;
+    letter-spacing:2px;
+    border-right: solid black 2px;
+    border-left: solid black 2px;
+    border-top: none;
+    border-bottom: none;
+    background-color: white;
+}
+
+.create-account-button:hover {
+    filter: invert();
+}
